@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Nis header -->
+    <!-- nis navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""> Coffee shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- fund navbar -->
+
+
+     <header class="hero-section">
+         <section class="container py-5 py-lg-6">
+             <div class="row align-items-center g-5">
+                 <div class="col-12 col-md-6 hero-copy">
+                     <span class="eyebrow">Freshly brewed moments</span>
+                    <h1>Titull</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cupiditate nam quod amet a quasi? Quas laboriosam dicta adipisci.</p>
+                     <div class="d-flex gap-3 flex-wrap">
+                         <a href="about.html" class="btn btn-dark btn-lg">About</a>
+                         <a href="contact.html" class="btn btn-outline-dark btn-lg">Contact</a>
+                     </div>
+                </div>
+                 <div class="col-12 col-md-6 hero-media-wrap">
+                     <div class="hero-media">
+                         <img src="images/image1.jpg" alt="Cup of coffee on a wooden table" class="img-fluid">
+                     </div>
+                </div>
+            </div>
+        </section>
+     </header>
+    <!-- fund header -->
+    <!-- nis footer -->
+    <footer class="site-footer mt-5 pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <a class="d-flex align-items-center gap-2 mb-3 footer-brand" href="index.html">
+                        <img src="images/logo.png" alt="Coffee shop logo" width="56" height="56">
+                        <span class="h4 mb-0">Coffee shop</span>
+                    </a>
+                    <p class="small mb-3">Freshly roasted coffee and a cozy place to meet friends.</p>
+                    <address class="small mb-0">
+                        <div class="mb-1"><i class="fa-solid fa-location-dot me-2"></i>Main Street 1, City</div>
+                        <div class="mb-1"><i class="fa-regular fa-envelope me-2"></i><a href="mailto:info@gmail.com">info@gmail.com</a></div>
+                        <div><i class="fa-solid fa-phone me-2"></i><a href="tel:00000000">000000</a></div>
+                    </address>
+                </div>
+                <div class="col-6 col-md-4">
+                    <h5 class="mb-3">Quick links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="index.html">Home</a></li>
+                        <li class="mb-2"><a href="about.html">About</a></li>
+                        <li class="mb-2"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5 class="mb-3">Subscribe</h5>
+                    <p class="small">Get news and offers straight to your inbox.</p>
+                    <form>
+                        <label for="subscribe-email" class="visually-hidden">Email address</label>
+                        <div class="input-group">
+                            <input type="email" class="form-control" id="subscribe-email"
+                                placeholder="Your email" required>
+                            <button class="btn btn-brand" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="text-center small mb-0">&copy; 2026 Coffee shop. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- fund footer -->
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+        crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
